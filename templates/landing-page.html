@@ -1,20 +1,33 @@
-<!DOCTYPE HTML>
-
-<html lang = "en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>IMDb Search API</title>
-    </head>
-    <body>
-        <h3>IMDB Search API</h3>
-        <form action = "#">
-            <input
-                type = "textbox" 
-                placeholder = "Type a movie title..."
-                required
-            />
-            <input type = "submit" value = "Search"/>
-        </form>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMDB Search API</title>
+    <link href="../static/css/fonts.css" rel="stylesheet" />
+    <link href="../static/css/landing-page.css" rel="stylesheet" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <form action="/search" class="search-form" method="POST">
+        <div class="search-bar-container">
+          <h3 class="search-bar-title">IMDB Search API</h3>
+          <input
+            type="textbox"
+            placeholder="Type a movie title, id or director to start searching..."
+            class="search-box"
+            name="search_query"
+            required
+          />
+          <input type="submit" value="&#xf002;" class="search-button" />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

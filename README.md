@@ -8,6 +8,7 @@ _Note: You can customise this by editing _`README.md`_ in the root folder of you
 ```
 flask-movies-web-app
 |-- app.py
+|-- Procfile
 |-- static/
 |   |-- css/
 |       |-- error404.css

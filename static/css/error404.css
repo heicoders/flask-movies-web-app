@@ -1,0 +1,56 @@
+/* Start of general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(49, 49, 49);
+  font-family: "Lato";
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* End of general styles */
+
+/* Start of error 404 section */
+
+.error-text {
+  color: white;
+  font-size: 240px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.error-text-desc {
+  font-size: 24px;
+  width: 50%;
+  text-align: center;
+  color: #cecece;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.return-btn {
+  padding: 20px 35px;
+  background-color: #ffdd97;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+.return-btn:hover {
+  cursor: crosshair;
+}
+
+/* End of error 404 section*/

@@ -1,0 +1,91 @@
+/* Start of general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(49, 49, 49);
+  font-family: "Lato";
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* End of general styles */
+
+/* Start of 2-grid-layout-styles */
+
+.grid-container-2 {
+  width: 60%;
+  display: grid !important;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+}
+
+.poster-image {
+  width: 400px;
+  height: 600px;
+}
+
+.poster-title {
+  width: 70%;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+}
+
+.year-released {
+  font-size: 18px;
+  color: #dfdfdf;
+  margin-bottom: 10px;
+}
+
+.dummy-desc {
+  width: 80%;
+  color: #a0a0a0;
+  margin-bottom: 30px;
+}
+
+.actors {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.ranking {
+  position: fixed;
+  right: 20%;
+  top: 10%;
+  width: 5%;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #ffdd97;
+}
+
+.fa-angle-left {
+  font-size: 28px;
+  position: fixed;
+  left: 20%;
+  top: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+.back-text {
+  position: relative;
+  top: -4px;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: "Lato";
+}
+
+/* End of 2-grid-layout-styles*/
